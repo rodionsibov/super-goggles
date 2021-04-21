@@ -8,7 +8,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: 'Lato', sans-serif;
-    background-image: linear-gradient(0deg, rgb(247, 247, 247) 23.8%, rgb(252, 221, 221) 92%);
+    background-image: linear-gradient(0deg, rgb(250, 251, 253) 23.8%, rgb(156, 173, 243) 92%);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -18,7 +18,7 @@ body {
 .music-container {
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 20px 20px 0 rgba(252, 169, 169, 0.6);
+    box-shadow: 0 20px 20px 0 rgba(198, 197, 243, 0.6);
     display: flex;
     padding: 20px 30px;
     position: relative;
@@ -53,6 +53,7 @@ body {
     left: 0;
     animation: rotate 3s linear infinite;
     animation-play-state: paused;
+    border: 2px solid white;
 }
 
 .music-container.play .img-container img {
@@ -126,7 +127,7 @@ body {
 }
 
 .progress {
-    background-color: #fe8daa;
+    background-color: dodgerblue;
     border-radius: 5px;
     height: 100%;
     width: 0%;
